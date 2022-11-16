@@ -1,6 +1,6 @@
 FROM ubuntu
 ARG DEBIAN_FRONTEND=noninteractive
-RUN apt-get update &amp;&amp; apt-get -y install \
+RUN apt-get update && apt-get -y install \
     python3 python3-dev python3-dev python3-pip python3-venv python3-wheel \
     mysql-client libsqlclient-dev libssl-dev default-libmysqlclient-dev
 
