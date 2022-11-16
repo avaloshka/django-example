@@ -24,9 +24,9 @@ import os
 SECRET_KEY = 'django-insecure-8p=+4i=e0%a7f5k+f&+hu+s$1t9u^a&ip%-3dlj)2yl5^t5y42'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['.doprax.com', 'localhost', 'https://my-appyooj.eu-ccofhtfzmvsd.dopraxapp.com/', 'my-appyooj.eu-ccofhtfzmvsd.dopraxapp.com']
+ALLOWED_HOSTS = ['.doprax.com', 'localhost', 'my-appvlva.eu-ccofhtfzmvsd.dopraxapp.com']
 
 
 # Application definition
