@@ -1,0 +1,19 @@
+volumes:
+  - name:  static
+    mount: /app_data/static/
+envs:
+  - DB_PASS: 2021LukasukasDohni
+  - DB_NAME: mydb
+  - DB_HOST: mysql
+
+services:
+  - mysql:
+      tag: 5.6
+      volumes:
+        - name: mysql_vol
+          mount: /var/lib/mysql/
+      envs:
+        - MYSQL_ROOT_PASSWORD: 2021LukasukasDohni
+        - MYSQL_DATABASE: mydb
+        - MYSQL_USER: alexvaloshka
+        - MYSQL_PASSWORD: 2021LukasukasDohni
